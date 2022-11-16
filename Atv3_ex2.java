@@ -21,5 +21,6 @@ public class Atv3_ex2 {
         }catch(InputMismatchException e) {
             System.out.println("Erro de entrada de dados. Reinicie o programa.");
         }
+        sc.close();
     }
 }
